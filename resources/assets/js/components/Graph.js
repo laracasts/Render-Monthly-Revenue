@@ -22,7 +22,7 @@ export default Vue.extend({
             labels: this.keys,
             datasets: [
                 {
-                    label: "Revenue",
+                    label: "Revenue", // You can pass this in as a property.
                     fillColor: "rgba(220,220,220,0.2)",
                     strokeColor: "rgba(220,220,220,1)",
                     pointColor: "rgba(220,220,220,1)",
